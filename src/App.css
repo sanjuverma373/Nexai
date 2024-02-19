@@ -7,12 +7,19 @@
   font-family: "recharge";
   src: url('./fonts/recharge_bd.ttf');
 }
+@font-face {
+  font-family: "neuropolitical";
+  src: url('./fonts/neuropolitical rg.otf');
+}
 
-.slick-list {
-  overflow: visible !important;
+.block .slick-list {
+  /* overflow: visible !important; */
   position: relative;
   z-index: 1;
 
+}
+.slider3 .slick-list{
+   overflow: visible !important;
 }
 
 .slick-track {

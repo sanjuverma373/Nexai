@@ -6,7 +6,7 @@ const Utilitysection = () => {
   return (
     <div className=' pt-[40px] sm:pt-[90px] md:pt-[160px] relative overflow-x-clip  '>
       <div className='max-w-[1310px] px-3 mx-auto w-full overflow-hidden'>
-        <h3 className='font-Recharge font-bold text-[25px] sm:text-[50px] leading-[38px] sm:leading-[50px] text-[#02CDCF] pb-0 sm:pb-[16px] text-center'>NexAI Token & utility</h3>
+        <h3 data-aos="zoom-in-down" className='font-Recharge font-bold text-[25px] sm:text-[50px] leading-[38px] sm:leading-[50px] text-[#02CDCF] pb-0 sm:pb-[16px] text-center'>NexAI Token & utility</h3>
         <div className=' grid lg:grid-cols-2 pt-[24px] sm:pt-[47px]'>
           <div className=' overflow-hidden'>
             <div className='relative before:absolute before:animate-pulse before:mix-blend-color before:z-20 after:animate-pulse  before:top-0 before:left-[55px]   before:w-[511px] before:h-[511px] before:bg-[#02CDCF] after:absolute after:mix-blend-hue  after:top-0 after:left-[55px] after:z-[1] after:w-[511px] after:h-[511px] after:bg-[#02CDCF] flex justify-center lg:justify-start '>

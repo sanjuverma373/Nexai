@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect, useState } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css'
 import Headersection from './components/Headersection'
 import Homesection from './components/Homesection'
@@ -15,6 +15,9 @@ import Preloadersection from './components/Preloadersection'
 import Backtop from './components/Backtop'
 
 function App() {
+  useEffect(() => {
+    AOS.init({once: true });
+  }, [])
   const [count, setCount] = useState(0)
 
   return (

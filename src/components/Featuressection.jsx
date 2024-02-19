@@ -3,11 +3,11 @@ import { Linecicon, Msgicon, Timeadd, Timeset } from './Icons'
 
 const Featuressection = () => {
   return (
-    <div id='about' className=' px-3 sm:px-[50px]'>
+    <div id='about' className=' flex items-center justify-center px-3 sm:px-[50px]'>
       <div className=' bg-[url(./assets/images/webpimg/features-bg.webp)] bg-no-repeat bg-center bg-cover rounded-[32px]  relative border border-white overflow-hidden z-10 w-full max-w-[1340px] h-full sm:min-h-[810px]'>
         <div className=' max-w-[1240px] px-3 mx-auto w-full'>
-          <h2 className=' font-Recharge font-bold text-[25px] sm:text-[50px] leading-[38px] sm:leading-[50px] text-white text-center pt-[24px] sm:pt-[80px] pb-[16px]'>Unique features</h2>
-          <p className=' font-Poppins font-normal text-[13px] sm:text-[16px] leading-[21px] sm:leading-[25px] text-[#B7B7B7] text-center max-w-[397px] mx-auto pb-[24px] sm:pb-[80px]'>ability to engage in natural, fluent conversations in over 15 languages,</p>
+          <h2 data-aos="zoom-in" className=' font-Recharge font-bold text-[25px] sm:text-[50px] leading-[38px] sm:leading-[50px] text-white text-center pt-[24px] sm:pt-[80px] pb-[16px]'>Unique features</h2>
+          <p data-aos="zoom-in" className=' font-Poppins font-normal text-[13px] sm:text-[16px] leading-[21px] sm:leading-[25px] text-[#B7B7B7] text-center max-w-[397px] mx-auto pb-[24px] sm:pb-[80px]'>ability to engage in natural, fluent conversations in over 15 languages,</p>
           <div className=' overflow-y-scroll my-scroll-bar h-[500px]'>
             <div className=' grid lg:grid-cols-2'>
               <div className=' flex flex-col'>

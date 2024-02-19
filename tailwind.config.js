@@ -9,10 +9,12 @@ export default {
       fontFamily: {
         "Poppins": "Poppins, sans-serif",
         "Recharge": "recharge, sans-serif",
+        "Neuropolitical": "neuropolitical, sans-serif",
       },
       backgroundSize:{
         "size":"100% 100%"
-      }
+      },
+     
     },
   },
   plugins: [],

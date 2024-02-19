@@ -15,7 +15,10 @@ const Whatnexai = () => {
                                                         <div className=' flex justify-center lg:justify-start cursor-pointer'><Commonbtn text="Learn More" /></div>
                                                 </div>
                                                 <div className=' relative order-1 lg:order-2 flex justify-center lg:justify-start '>
-                                                        <img  className=' mix-blend-color-dodge relative' src={whatai} alt="#" />
+                                                        <img data-aos="flip-left"
+                                                                data-aos-easing="ease-out-cubic"
+                                                                data-aos-duration="2000"
+                                                         className=' mix-blend-color-dodge relative' src={whatai} alt="#" />
                                                         <span className=' absolute top-[9%]  right-[10%] w-full max-w-[380px] min-h-[380px] rounded-[500px] bg-[#02CDCF] blur-[470px] -z-10'></span>
                                                 </div>
                                         </div>

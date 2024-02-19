@@ -20,7 +20,7 @@ const Backtop = () => {
         });
         return (
                 <>
-                        <button className={`back-to-top ${isVisible ? 'visible' : ''} fixed bottom-[14px] right-[14px] z-[100]`}
+                        <button className={`back-to-top ${isVisible ? 'visible' : ''} fixed bottom-[14px] right-[14px] z-[100] animate-bounce aspect-square `}
                                 onClick={scrollToTop}
                                 style={{ display: isVisible ? 'block' : 'none', }} >
                                 <div className='w-[30px] h-[30px] sm:w-[50px] sm:h-[50px] cursor-pointer rounded-full bg-white hover:-translate-y-1 duration-300 hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] flex justify-center items-center'>
