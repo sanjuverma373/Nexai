@@ -4,8 +4,8 @@ import Commonbtn from './Commonbtn'
 
 const Whatnexai = () => {
         return (
-                <div className=' pt-[40px] sm:pt-[80px] md:pt-[160px] px-3 sm:px-[50px]'>
-                        <div className=' bg-[url(./assets/images/webpimg/what-section-bg-img.webp)] bg-cover bg-center rounded-[24px] border border-white lg:bg-size bg-no-repeat relative z-10 overflow-hidden'>
+                <div className=' pt-[40px] sm:pt-[80px] md:pt-[160px] px-3 sm:px-[50px] flex justify-center'>
+                        <div className=' bg-[url(./assets/images/webpimg/what-section-bg-img.webp)] bg-cover bg-center rounded-[24px] border border-white lg:bg-size bg-no-repeat relative z-10 overflow-hidden max-w-[1340px] w-full'>
                                 <div className=' py-[24px] sm:py-[60px] md:py-[120px] xl:py-[163px] px-[10px] sm:px-[30px] md:px-[50px] lg:px-[100px] mx-auto w-full'>
                                         <div className=' grid xl:grid-cols-2 gap-2 sm:gap-[24px]'>
                                                 <div className=' order-2 xl:order-1 flex flex-col justify-center'>

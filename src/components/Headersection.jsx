@@ -7,7 +7,7 @@ const Headersection = () => {
         return (
                 <div className='relative'>
                         <div className='lg:px-[30px] lg:pt-[10px] pb-0 sm:pb-[55px]'>
-                                <div className='bg-[url(./assets/images/webpimg/header-bg.webp)] bg-no-repeat bg-center lg:bg-size min-h-screen lg:min-h-[810px]  overflow-x-clip lg:mt-[0] '>
+                                <div className='bg-[url(./assets/images/webpimg/header-bg.webp)] bg-no-repeat bg-center lg:bg-size min-h-[96vh]  overflow-x-clip lg:mt-[0] '>
                                         <Navsection />
                                         <div className=' max-w-[1140px] mx-auto px-3 w-full'>
                                                 <div className=' min-h-[355px] pt-[35px] sm:pt-[104px] relative z-10'>
