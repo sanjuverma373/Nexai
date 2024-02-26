@@ -17,20 +17,20 @@ const Footersection = () => {
 
                                         <div className=' pt-6 lg:pt-0 flex justify-between'>
                                                 <ul>
-                                                        <li className=' pb-[10px] sm:pb-[20px] text-white font-Recharge font-bold text-[16px] sm:text-[18px] leading-[21px]' href="">Quick links</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' >Home</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' >Features</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' >Marketplace</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'>Tokens</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' >NexChat</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'>About</li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] text-white font-Recharge font-bold text-[16px] sm:text-[18px] leading-[21px]'>Quick links</li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' ><a href="#home">Home</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' ><a href="#feature">Features</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' ><a href="#marketplace">Marketplace</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'><a href="#tokens">Tokens</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer' ><a href="#nexchat">NexChat</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'><a href="#about">About</a></li>
                                                 </ul>
                                                 <ul>
-                                                        <li className=' pb-[10px] sm:pb-[20px]'><a className=' text-white font-Recharge font-bold text-[16px] sm:text-[18px] leading-[21px] ' href="">Information's</a></li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'>Contact</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'>Phone</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'>terms</li>
-                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'>Privacy</li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] text-white font-Recharge font-bold text-[16px] sm:text-[18px] leading-[21px] '>Information's</li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'><a href="#contact">Contact</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'><a href="#phone">Phone</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'><a href="#terms">terms</a></li>
+                                                        <li className=' pb-[10px] sm:pb-[20px] font-Recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300 cursor-pointer'><a href="#privacy">Privacy</a></li>
 
                                                 </ul>
                                         </div>

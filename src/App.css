@@ -3,9 +3,6 @@
   scroll-behavior: smooth;
 }
 
-.dfa{
-  background-image: url(./assets/images/png/unicelayer.png);
-}
 @font-face {
   font-family: "recharge";
   src: url('./fonts/recharge_bd.ttf');

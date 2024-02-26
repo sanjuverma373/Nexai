@@ -39,7 +39,7 @@ const Blockchainsection = () => {
                 ]
         };
         return (
-                <div id='newchat' className=' pt-[40px] sm:pt-[80px] md:pt-[160px] overflow-x-clip relative z-10'>
+                <div id='nexchat'  className=' pt-[40px] sm:pt-[80px] md:pt-[160px] overflow-x-clip relative z-10'>
                         <span className=' absolute left-[-6%] top-[30%] -z-10 w-full h-full max-w-[100px] sm:max-w-[120px] md:max-w-[228px] max-h-[100px] sm:max-h-[120px] md:max-h-[228px] bg-[#02CDCF] rounded-full blur-[150px] '></span>
                         <span className=' absolute right-[-10%] top-[15%] -z-10 w-full h-full max-w-[100px] sm:max-w-[120px] md:max-w-[228px] max-h-[100px] sm:max-h-[120px] md:max-h-[228px] bg-[#02CDCF] rounded-full blur-[140px] '></span>
                         <img className=' absolute right-0 top-0' src={startelips} alt="startelips" />
