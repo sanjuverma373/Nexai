@@ -14,7 +14,7 @@ const Navsection = () => {
 
         { first ? document.body.classList.add("overflow-hidden") : document.body.classList.remove("overflow-hidden") }
         return (
-                <div className='py-[38px]'>
+                <div className='py-[26px]'>
                         <div className=' max-w-[1200px] px-3 mx-auto w-full'>
                                 <div className=' flex justify-end '>
                                         <div className=' flex items-center justify-between lg:w-[65%]'>
